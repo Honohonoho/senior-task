@@ -26,7 +26,7 @@
         this.target = $('<button class="btn">GoTop</button>');
     }
     GoTop.prototype.creatNode = function(){
-        $ct.append(this.target);
+        this.ct.append(this.target);
         this.target.hide();
     }
     GoTop.prototype.bindevent = function(){
